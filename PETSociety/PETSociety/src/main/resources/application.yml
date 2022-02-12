@@ -1,0 +1,23 @@
+server:
+  port: 9010
+  
+spring:
+  datasource:
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+#    password: password 
+#    url: jdbc:postgresql://${PROJECT_TWO_ENDPOINT}/${PROJECT_TWO_DBNAME}
+#    username: ${PROJECT_TWO_USERNAME}
+#    password: ${PROJECT_TWO_PASSWORD}
+#    url: jdbc:postgresql://${TRAINING_DB_ENDPOINT}/training1
+#    username: ${TRAINING_DB_USERNAME}
+#    password: ${TRAINING_DB_PASSWORD}
+    url: jdbc:postgresql://datachan.ceduwou4ijw1.us-east-2.rds.amazonaws.com/petsociety
+    username: datachan
+    password: p4ssw0rd
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    hibernate: 
+      ddl-auto: none

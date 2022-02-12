@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PETSociety</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style3.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<!-- Nav bar -->
+			<div class="container">
+				<div class="header-data">
+					<div class="logo">
+						<h1>PETSociety</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="cover-sec">
+			<!-- backgroung image -->
+			<img src="img/hero2.jpg" alt="dog">
+		</section>
+		<main>
+			<div class="main-section">
+				<div class="container">
+					<div class="main-section-data">
+						<div class="row">
+							<div class="col-lg-3">
+								<!-- left column profile picture-->
+							</div>
+							<div class="col-lg-6">
+								<!-- middle column message feed-->
+								<!-- add logging body -->
+								<div class="transbox">
+									<!-- <button style="float: right;" class="btn btn-primary" id="toogleButtonId"
+										onclick="toogleForms()">Register</button> -->
+									<div class="toggle-button-cover">
+										<div class="button b2" id="button-10">
+											<input type="checkbox" class="checkbox"id="toogleButtonId" onclick="toogleForms()" >
+											<div class="knobs">
+												<span>Login</span>
+											</div>
+											<div class="layer"></div>
+										</div>
+									</div>
+
+
+
+									<br>
+
+									<div id="loginFormId">
+										<!-- <form class="boxSpace" method="get" action="/loginUser"> -->
+										<form class="boxSpace">
+											<div class="mb-3">
+												<label class="title">Login:</label><br /> <br />
+												<p style="display: none;" id="loginErrorId" class="warningMsg">Incorrect
+													credentials used. Please try again.</p>
+												<br /> <label for="loginUsernameId" class="form-label">Username</label>
+												<input type="text" class="form-control" id="loginUsernameId"
+													name="loginUsername">
+											</div>
+											<div class="mb-3">
+												<label for="loginPasswordId" class="form-label">Password</label>
+												<input type="password" class="form-control"
+													id="loginPasswordId" name="loginPassword">
+											</div>
+											<button type="submit" class="btn btn-primary"
+												id="loginButtonId">Login</button>
+											<span><a href="/html/forgotPassword.html">Forgot
+													your password?</a></span>
+										</form>
+									</div>
+									<div style="display: none;" id="registerFormId">
+										<!-- <form class="boxSpace" method="post" action="/registerUser"> -->
+										<form class="boxSpace">
+											<div class="mb-3">
+												<label class="title">Register:</label><br /> <br />
+												<p style="display: none;" id="registerSuccessId" class="successMsg">Registration
+													successful.</p>
+												<p style="display: none;" id="registerFailureId" class="warningMsg">Registration
+													failure.</p>
+												<br /> <label for="registerUsernameId" class="form-label">Username</label>
+												<input type="text" class="form-control"
+													id="registerUsernameId" name="registerUsername">
+											</div>
+											<div class="mb-3">
+												<label for="registerPasswordId" class="form-label">Password</label>
+												<input type="password" class="form-control"
+													id="registerPasswordId" name="registerPassword">
+											</div>
+											<div class="mb-3">
+												<label for="registerEmailId" class="form-label">Email</label>
+												<input type="email" class="form-control"
+													id="registerEmailId" name="registerEmail">
+											</div>
+											<button type="submit" class="btn btn-primary"
+												id="registerButtonId">Register</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<!-- right column friend lists-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="footy-sec mn no-margin">
+				<div class="container">
+					<!-- <ul>
+						<li><a>Help Center</a></li>
+						<li><a>About</a></li>
+						<li><a>Privacy Policy</a></li>
+						<li><a>Community Guidelines</a></li>
+						<li><a>Cookies Policy</a></li>
+						<li><a>Career</a></li>
+						<li><a>Forum</a></li>
+						<li><a>Language</a></li>
+						<li><a>Copyright Policy</a></li>
+					</ul>
+					<p>Copyright 2022</p> -->
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <script type="text/javascript" src="js/index copy.js"></script> -->
+	<script type="text/javascript" src="js/index.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+</html>

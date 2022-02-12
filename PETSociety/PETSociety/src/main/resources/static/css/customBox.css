@@ -1,0 +1,26 @@
+
+body{
+    /* background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg') */
+    background-color: rgb(245, 145, 79); 
+}
+
+.transbox{
+    /* background-color: black; */
+    /* border-left: 30%; */
+}
+
+.title{
+    font-size: 150%;
+}
+
+
+.boxSpace{
+    /* border-style: groove;
+    border-radius: 100px;
+    border-color: rgba(210, 105, 30, 0.342);
+    border-bottom: 30px; */
+    opacity: 100%;
+    margin: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
